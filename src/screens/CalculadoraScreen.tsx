@@ -92,9 +92,7 @@ const CalculadoraScreen = () => {
 
   return (
     <View style={styles.calculadoraContainer}>
-      {numeroAnterior === '0' && (
-        <Text style={styles.resultadopequeno}>{numeroAnterior}</Text>
-      )}
+      <Text style={styles.resultadopequeno}>{numeroAnterior}</Text>
 
       <Text style={styles.resultado} numberOfLines={1} adjustsFontSizeToFit>
         {numero}
